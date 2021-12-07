@@ -1,0 +1,17 @@
+{
+  "home":"http://AjithRevildo.github.io/SIMPLE-WEB-SCRAPING",
+  "name": "web-scraping",
+  "version": "1.0.0",
+  "description": "simple web scrapper",
+  "main": "scrapers.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "predeploy":"npm run build",
+    "deploy":"gh-pages -d build"
+  },
+  "author": "Ajith Revildo",
+  "license": "ISC",
+  "dependencies": {
+    "puppeteer": "^12.0.1"
+  }
+}
